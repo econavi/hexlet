@@ -35,3 +35,22 @@ const sort = (arr) => {
 
 export default sort;
 // END
+
+// Решение учителя
+// // BEGIN
+// const sort = (list) => {
+//   if (isEmpty(list)) {
+//     return l();
+//   }
+//
+//   const divisor = head(list);
+//   const rest = tail(list);
+//
+//   const left = filter(value => value <= divisor, rest);
+//   const right = filter(value => value > divisor, rest);
+//
+//   return concat(sort(left), cons(divisor, sort(right)));
+// };
+//
+// export default sort;
+// // END
