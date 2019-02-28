@@ -1,3 +1,5 @@
+// Реализуйте функцию getMethod, которая производит поиск конкретной реализации функции для переданного типа.
+
 import { cons, car, cdr, toString as pairToString } from 'hexlet-pairs'; // eslint-disable-line
 import { l, cons as consList, isEmpty, head, tail, toString as listToString } from 'hexlet-pairs-data';
 import { attach, typeTag, contents } from './type';

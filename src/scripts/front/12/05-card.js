@@ -1,3 +1,6 @@
+// card.js
+// Реализуйте и экспортируйте обобщенную функцию damage.
+
 import { getMethod } from './generic';
 import { contents } from './type';
 
