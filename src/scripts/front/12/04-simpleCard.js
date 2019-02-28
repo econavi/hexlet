@@ -1,4 +1,5 @@
-// Реализуйте интерфейс работы карты с типом SimpleCard по аналогии с типом PercentCard. Второй параметр у конструктора - урон.
+// Реализуйте интерфейс работы карты с типом SimpleCard по аналогии с типом PercentCard.
+// Второй параметр у конструктора - урон.
 // simpleCard.make('Жесткий ломатель мироздания', 6);
 
 import { cons, car, cdr, toString as pairToString } from 'hexlet-pairs'; // eslint-disable-line

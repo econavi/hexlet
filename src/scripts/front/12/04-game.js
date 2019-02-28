@@ -1,3 +1,6 @@
+// game.js
+// Реализуйте логику работы функции run.
+
 import { cons, car, toString as pairToString } from 'hexlet-pairs'; // eslint-disable-line
 import { cons as consList, l, random, head, reverse, toString as listToString } from 'hexlet-pairs-data'; // eslint-disable-line
 import { getName as getSimpleCardName, damage as simpleCardDamage } from './simpleCard';
