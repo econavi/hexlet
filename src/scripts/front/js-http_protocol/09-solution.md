@@ -1,0 +1,25 @@
+# Solution 09
+
+* Используя telnet выполните запрос к hexlet.local (расположен на localhost) на порт 8080. Параметры запроса: глагол get, страница /account, протокол http 1.1, куки name со значением user и secret со значением secret_hash;
+* Запишите ваш request в файл solution;
+
+### Мое решение
+
+Request:
+```
+$ telnet localhost 8080
+GET /account HTTP/1.1
+Host: hexlet.local
+Cookie: name=user; secret=secret_hash
+```
+
+Response:
+```
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Connection: close
+Date: Sun, 29 Mar 2020 18:22:24 GMT
+Content-Length: 0
+
+Connection closed by foreign host.
+```
