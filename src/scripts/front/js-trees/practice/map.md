@@ -45,4 +45,6 @@ const map = (fn, node) => {
     ? { ...updatedNode, children: getChildren(node).map((child) => map(fn, child)) }
     : updatedNode;
 };
+
+export { map };
 ```
